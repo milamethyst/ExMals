@@ -69,3 +69,8 @@ def calcula_divisao_inteira(operando1, operando2):
 
 def calcula_resto(operando1, operando2):
     return operando1 % operando2
+def calcula_exponenciacao(operando1, operando2):
+    return operando1**operando2
+
+def calcula_radiciacao(operando1, operando2):
+    return operando1**(1/operando2)
