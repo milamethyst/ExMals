@@ -63,3 +63,9 @@ def calcula_soma(operando1, operando2):
 
 def calcula_subtracao(operando1, operando2):
     return operando1 - operando2
+
+def calcula_divisao_inteira(operando1, operando2):
+    return operando1 // operando2
+
+def calcula_resto(operando1, operando2):
+    return operando1 % operando2
