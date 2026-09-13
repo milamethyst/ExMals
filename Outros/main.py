@@ -63,3 +63,9 @@ def calcula_soma(operando1, operando2):
 
 def calcula_subtracao(operando1, operando2):
     return operando1 - operando2
+
+def calcula_exponenciacao(operando1, operando2):
+    return operando1**operando2
+
+def calcula_radiciacao(operando1, operando2):
+    return operando1**(1/operando2)
