@@ -69,3 +69,12 @@ def calcula_exponenciacao(operando1, operando2):
 
 def calcula_radiciacao(operando1, operando2):
     return operando1**(1/operando2)
+
+def calcula_multiplicacao(operando1, operando2):
+    return operando1 * operando2   
+
+def calcula_divisao(operando1, operando2):
+    if operando2 == 0:
+        print("Não é possível dividir por zero.")
+        return None
+    return operando1 / operando2
